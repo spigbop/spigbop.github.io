@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(21,17,47);
+    background-image: linear-gradient(black, #07050c);
+}
+
+.flex-middle {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.atomic-age-regular {
+    font-family: "Atomic Age", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.liu-jian-mao-cao-regular {
+    font-family: "Liu Jian Mao Cao", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.heading {
+    font-size: clamp(0px, 7.5vw, 72px);
+}
+
+.subheading {
+    font-size: clamp(0px, 4.5vw, 24px);
+}
+
+.signature {
+    font-size: 36px;
+    position: absolute;
+    margin: 0 8px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 40%;
+    transition: opacity 0.32s ease-in-out;
+    text-decoration: none;
+    color: white;
+}
+.signature:hover {
+    opacity: 80%;
+}
+
+.links-wrapper {
+    display: flex;
+    margin: 8px;
+}
+
+.button {
+    border-radius: 6px;
+    background: radial-gradient(circle at bottom, #5f5f5f, #141414 40%) top;
+    background-size: 100% 200%;
+    
+    padding: 3px;
+    margin: 8px;
+    
+    cursor: pointer;
+    
+    transition: background-position 0.34s ease-in-out;
+}
+.button:hover {
+    background-position: bottom;
+}
+
+.button-content {
+    background: radial-gradient(circle, #101010, black);
+    border-radius: 6px;
+    
+    padding: 20px 32px;
+    
+    font-size: 20px;
+}
